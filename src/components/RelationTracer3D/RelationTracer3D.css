@@ -1,0 +1,65 @@
+
+.RelationTracer3D{
+  position: relative;
+}
+
+.canvas-container{
+  position: relative;
+}
+
+.focus-node-title{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  color: white;
+  margin: 0 auto;
+  transform: translate(-50%, -50%); /*shift half width back */
+  font-size: 16px;
+}
+
+.mouseover-object{
+  position: absolute;
+  color: white;
+  font-size: 16px;
+}
+
+.info-panel {
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  font-size: 12px;
+  max-width: 400px;
+  width: 350px;
+  
+  color: rgb(232, 232, 232);
+}
+
+table.info-table {
+  background-color: rgba(148, 148, 148, 0.824);
+  font-family: Helvetica, Arial, sans-serif;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: right;
+  float: right;
+}
+
+table.info-table caption {
+  background-color: rgba(148, 148, 148, 0.824);
+  text-align: center;
+  color: #cccccc;
+}
+
+table.info-table th {
+  font-weight: bold;
+  text-align: right;
+  width: 80px;
+}
+
+table.info-table td {
+  padding-left: 8px;
+  text-align: left;
+  width: 140px;
+}

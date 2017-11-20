@@ -1,0 +1,72 @@
+{
+  "max_preserve_newlines": 4,
+  "preserve_newlines": true,
+  "end_with_newline": true,
+  "eol": "\n",
+  "indent_level": 0,
+  "indent_char": " ",
+  "indent_with_tabs": false,
+  "html": {
+    "allowed_file_extensions": [
+      "htm",
+      "html"
+    ],
+    "wrap_line_length": 0,
+    "indent_size": 2,
+    "wrap_attributes": "force-aligned",
+    "unformatted": [
+      "a",
+      "span",
+      "img",
+      "code",
+      "pre",
+      "sub",
+      "sup",
+      "em",
+      "strong",
+      "b",
+      "i",
+      "u",
+      "strike",
+      "big",
+      "small",
+      "pre",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6"
+    ]
+  },
+  "css": {
+    "allowed_file_extensions": [
+      "css",
+      "less"
+    ],
+    "indent_size": 2,
+    "preserve_newlines": true,
+    "newline_between_rules": true,
+    "selector_separator_newline": true
+  },
+  "js": {
+    "allowed_file_extensions": [
+      "js"
+    ],
+    "brace_style": "collapse,preserve-inline",
+    "break_chained_methods": false,
+    "indent_size": 2,
+    "jslint_happy": false,
+    "keep_array_indentation": false,
+    "keep_function_indentation": false,
+    "space_after_anon_function": false,
+    "space_before_conditional": true,
+    "space_in_empty_paren": false,
+    "space_in_paren": false,
+    "unescape_strings": false,
+    "wrap_line_length": 0
+  },
+  "json": {
+    "indent_size": 2
+  }
+}

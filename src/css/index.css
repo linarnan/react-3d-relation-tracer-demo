@@ -1,0 +1,24 @@
+.mainContent {
+  width: 98vw;
+  height: 98vh;
+  display: grid;
+  grid-template-columns: 160px 960px auto;
+  grid-template-rows: 70px 80%;
+  grid-template-areas: "data-uploader RelationTracer3D rightbar";
+  grid-column-gap: 2px;
+  grid-row-gap: 3px;
+}
+
+.data-uploader{
+  height: 80%;
+
+}
+
+.RelationTracer3D {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "nodes"  "edges";
+}
+

@@ -1,0 +1,19 @@
+
+.rightbar {
+  padding-left: 10px;
+}
+.nodes {
+  height: 350px;
+  width: 300px;
+}
+
+.edges {
+  height: 350px;
+  width: 300px;
+  
+}
+
+.content {
+  max-height: 300px;
+  overflow-x: auto;
+}

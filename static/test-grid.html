@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>3D Relation Tracer Demo</title>
+  <style>
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 0.10fr 0.70fr 0.20fr;
+  grid-template-rows: 50px auto;
+  grid-template-areas: "header . ."
+                       "leftbar main rightbar";
+  grid-column-gap: 2px;
+  grid-row-gap: 3px;
+}
+.header {
+  height: 50px;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.rightbar {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "nodes"  "edges";
+}
+.nodes {
+  overflow-x: auto;
+}
+
+.edges {
+  overflow-x: auto;
+}
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Demo for 3d Relation Tracer</h1>
+
+
+  </div>
+  <div class="leftbar"></div>
+  <div class="main"><div id="app"></div></div>
+  <div class="rightbar">
+    <div class="nodes">
+
+    </div>
+    <div class="edges">
+
+    </div>
+
+  </div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+</body>
+</html>
